@@ -95,13 +95,16 @@ This repository contains a set of Rust lab assignments and a final project: **TA
    cargo build --release
    ```
 4. **Run commands as shown above.**
+ **Note:**  
+Requires [flate2 crate](https://docs.rs/flate2/) for Gzip compression (already included in `Cargo.toml`).
+
 
    ---
 
    ## Screenshots
 
-- [Packing and unpacking examples](docs/pack1.png)
-- [Packing and unpacking examples](docs/folder.png)
+- ![Packing and unpacking examples](docs/pack1.png)
+- ![Packing and unpacking examples](docs/folder.png)
 - Notice how `.tar.gz` is smaller due to compression.
 
   ## Contact
